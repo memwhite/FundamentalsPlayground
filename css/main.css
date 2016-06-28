@@ -3,6 +3,36 @@ body{
 	background-color: #00FFFF;
 }
 
+/* Nav Bar */
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #f7eee6;
+}
+
+.nav li{
+	float: left;
+}
+
+.nav li a{
+	display: inline-block;
+	color: blue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+.nav li a:hover{
+	background-color: #111;
+}
+
+
+
+
+
 /*CSS for creature*/
 
 #triangle-up {
